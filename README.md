@@ -27,3 +27,11 @@ exitt:
 	| /* can be empty */ 
 	;
 ```
+## command.cc 
+This file contains the main functions for handling the execution of the commands written of the minishell
+
+## monitor.log
+when ever a child process is terminated it should be written to the monitor log.
+
+## makefile
+for compiling and runs the minishell
