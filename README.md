@@ -13,7 +13,7 @@ here is an example for the new line and the exit commands
 "exit"  {     
          return EXIT;
     }
-```C
+```
 
 second, specify what should happen when the symbol or the action we already defined in the lex file
 using the YACC file.
@@ -26,4 +26,4 @@ exitt:
 	}
 	| /* can be empty */ 
 	;
-```C
+```
