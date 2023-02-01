@@ -11,6 +11,19 @@ here is an example for the new line and the exit commands
     }
     
 "exit"  {     
-         return exit;
+         return EXIT;
     }
+```C
+
+second, specify what should happen when the symbol or the action we already defined in the lex file
+using the YACC file.
+for example when we write the EXIT in our minishell what should be happens is what inside the {}
+```C
+exitt:
+	EXIT{  
+		printf("\tGood bye!! \n\n\n");
+		exit(1);
+	}
+	| /* can be empty */ 
+	;
 ```C
